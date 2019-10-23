@@ -7,7 +7,9 @@
     "seomatic",
     "seo",
     "craft",
-    "nuxt"
+    "craftcms",
+    "nuxt",
+    "nuxtjs"
   ],
   "main": "lib/module.js",
   "files": [
