@@ -1,7 +1,7 @@
-# nuxt-seomatic-meta
+<h1 align="center">nuxt-seomatic-meta &nbsp; <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" /></h1>
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+<p align="center">
+  <img width="80%" src="https://i.imgur.com/BFG9Nn2.png" alt="Icon">
 </p>
 
 If you're using Nuxt.js with Craft CMS headless then there's a good chance you'll be aiming for some decent SEO. A custom solution would take too much time, so a great alternative is to request the SEO data from [SEOmatic](https://plugins.craftcms.com/seomatic) via GraphQL.
