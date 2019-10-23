@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-seomatic-meta",
+  "version": "0.1.0",
+  "description": "A Nuxt.js module connecting Nuxt.js to the Craft CMS SEOmatic plugin",
+  "keywords": [
+    "vue",
+    "seomatic",
+    "seo",
+    "craft",
+    "nuxt"
+  ],
+  "main": "lib/module.js",
+  "files": [
+    "lib"
+  ],
+  "author": "Ben Rogerson <info@benrogerson.com.au> (https://benrogerson.com.au)",
+  "license": "ISC",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.7.1",
+    "consola": "^2.10.1"
+  }
+}
