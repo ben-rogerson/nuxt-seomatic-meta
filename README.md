@@ -1,4 +1,4 @@
-<h1 align="center">nuxt-seomatic-meta &nbsp; <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" /></h1>
+<h1 align="center">nuxt-seomatic-meta &nbsp; <a href="https://www.npmjs.com/package/nuxt-seomatic-meta"><img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" /></a></h1>
 
 <p align="center">
   <img width="80%" src="https://i.imgur.com/BFG9Nn2.png" alt="Icon">
