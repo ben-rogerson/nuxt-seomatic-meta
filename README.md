@@ -1,4 +1,4 @@
-<h1 align="center">nuxt-seomatic-meta &nbsp; <a href="https://www.npmjs.com/package/nuxt-seomatic-meta"><img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" /></a></h1>
+<h1 align="center">nuxt-seomatic-meta &nbsp; <a href="https://www.npmjs.com/package/nuxt-seomatic-meta"><img src="https://img.shields.io/npm/v/nuxt-seomatic-meta.svg" alt="NPM"></a></h1>
 
 <p align="center">
   <img width="80%" src="https://i.imgur.com/BFG9Nn2.png" alt="Icon">
@@ -10,9 +10,9 @@ This module grabs the SEOmatic data and converts it to a format that Nuxt.js exp
 
 ## Getting started
 
-For this guide, I'm assuming you've already installed [Craft (>=3.3)](https://github.com/craftcms/cms/blob/develop/CHANGELOG-v3.md#330---2019-08-27), [SEOmatic (>=3.2.28)](https://github.com/nystudio107/craft-seomatic/releases/tag/3.2.28) and enabled [Crafts GraphQL API](https://docs.craftcms.com/v3/graphql.html#getting-started).
+Before starting, I'll assume you've installed [Craft (>=3.3)](https://github.com/craftcms/cms/blob/develop/CHANGELOG-v3.md#330---2019-08-27), [SEOmatic (>=3.2.28)](https://github.com/nystudio107/craft-seomatic/releases/tag/3.2.28) and enabled [Crafts GraphQL API](https://docs.craftcms.com/v3/graphql.html#getting-started).
 
-⚠️ Note: Craft can't be in `headlessMode` - this won't work with SEOmatic as we need to match the URI which gets turned off when headlessMode is enabled. This may change in the future.
+⚠️ Note: Craft can't be in `headlessMode` - [Headless mode](https://docs.craftcms.com/v3/config/config-settings.html#headlessmode) won't work with SEOmatic as we need to match the URI which gets turned off when headlessMode is enabled.
 
 ⚠️ Note: Within `Craft > GraphQL > Schemas`, be sure to adjust the scope to the right entries in the GraphQL schema - I find it easy to forget that.
 
@@ -38,7 +38,7 @@ For this guide, I'm assuming you've already installed [Craft (>=3.3)](https://gi
 
    *'@nuxtjs/axios'*: Axios is used to connect to the Craft CMS API - it's automatically installed as a dependency of `nuxt-seomatic-meta` so you'll just need to add it to the array.
 
-   *'@nuxtjs/dotenv'*: To specify your GraphQL connection variables in a `.env` file then [install the nuxt dotenv module](https://github.com/nuxt-community/dotenv-module#setup).
+   *'@nuxtjs/dotenv'* (optional): To specify your GraphQL connection variables in a `.env` file then [install the nuxt dotenv module](https://github.com/nuxt-community/dotenv-module#setup).
 
 3. Now specify the GraphQL connection settings - you have two options:
 
@@ -131,8 +131,8 @@ Note: .env variables require the [dotenv module](https://github.com/nuxt-communi
 
 ## 👷 TODO
 
-[ ] Add support for multi-site installs (request it!)<br>
-[ ] Add support for the [CraftQL plugin](https://plugins.craftcms.com/craftql)
+* [ ] Add support for multi-site installs (request it!)<br>
+* [ ] Add support for the [CraftQL plugin](https://plugins.craftcms.com/craftql)
 
 ## 🤝 Contributing
 
