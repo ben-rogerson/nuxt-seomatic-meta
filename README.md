@@ -77,8 +77,9 @@ Before starting, I'll assume you've installed [Craft (>=3.3)](https://github.com
 
      // Get Seomatic data from Craft by route
      async asyncData({ app, route }) {
+       const siteId = 1 // For multi-site installs
        return {
-         headData: await app.seomaticMeta(route)
+         headData: await app.seomaticMeta(route, siteId)
        };
      },
 
@@ -121,18 +122,6 @@ seomaticMeta: {
 | graphqlToken | `string`  | ``      | The token for your secured GraphQL endpoint.<br>This can also be defined in your `.env` under the key `GRAPHQL_TOKEN`.                                                                              |
 
 Note: .env variables require the [dotenv module](https://github.com/nuxt-community/dotenv-module#setup).
-
-## Author
-
-👤 **Ben Rogerson <info@benrogerson.com.au> (https://benrogerson.com.au)**
-
-* Twitter: [@benrogerson](https://twitter.com/benrogerson)
-* Github: [@ben-rogerson](https://github.com/ben-rogerson)
-
-## 👷 TODO
-
-* [ ] Add support for multi-site installs (request it!)<br>
-* [ ] Add support for the [CraftQL plugin](https://plugins.craftcms.com/craftql)
 
 ## 🤝 Contributing
 
