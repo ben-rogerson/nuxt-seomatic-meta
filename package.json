@@ -1,24 +1,30 @@
 {
-  "name": "nuxt-seomatic-meta",
-  "version": "0.1.1",
-  "description": "A Nuxt.js module connecting Nuxt.js to the Craft CMS SEOmatic plugin",
-  "keywords": [
-    "vue",
-    "seomatic",
-    "seo",
-    "craft",
-    "craftcms",
-    "nuxt",
-    "nuxtjs"
-  ],
-  "main": "lib/module.js",
-  "files": [
-    "lib"
-  ],
-  "author": "Ben Rogerson <info@benrogerson.com.au> (https://benrogerson.com.au)",
-  "license": "ISC",
-  "dependencies": {
-    "@nuxtjs/axios": "^5.7.1",
-    "consola": "^2.10.1"
-  }
+    "name": "nuxt-seomatic-meta",
+    "version": "0.1.1",
+    "description": "A Nuxt.js module connecting Nuxt.js to the Craft CMS SEOmatic plugin",
+    "keywords": [
+        "vue",
+        "seomatic",
+        "seo",
+        "craft",
+        "craftcms",
+        "nuxt",
+        "nuxtjs"
+    ],
+    "main": "lib/module.js",
+    "files": [
+        "lib"
+    ],
+    "author": "Ben Rogerson <info@benrogerson.com.au> (https://benrogerson.com.au)",
+    "license": "ISC",
+    "dependencies": {
+        "@nuxtjs/axios": "^5.9.5",
+        "consola": "^2.11.3"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 2,
+        "semi": false,
+        "singleQuote": true
+    }
 }

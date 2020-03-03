@@ -36,9 +36,9 @@ Before starting, I'll assume you've installed [Craft (>=3.3)](https://github.com
    ],
    ```
 
-   *'@nuxtjs/axios'*: Axios is used to connect to the Craft CMS API - it's automatically installed as a dependency of `nuxt-seomatic-meta` so you'll just need to add it to the array.
+   _'@nuxtjs/axios'_: Axios is used to connect to the Craft CMS API - it's automatically installed as a dependency of `nuxt-seomatic-meta` so you'll just need to add it to the array.
 
-   *'@nuxtjs/dotenv'* (optional): To specify your GraphQL connection variables in a `.env` file then [install the nuxt dotenv module](https://github.com/nuxt-community/dotenv-module#setup).
+   _'@nuxtjs/dotenv'_ (optional): To specify your GraphQL connection variables in a `.env` file then [install the nuxt dotenv module](https://github.com/nuxt-community/dotenv-module#setup).
 
 3. Now specify the GraphQL connection settings - you have two options:
 
@@ -94,6 +94,7 @@ Before starting, I'll assume you've installed [Craft (>=3.3)](https://github.com
 ## Configuration
 
 Options can be supplied in a `seomaticMeta` object in `nuxt.config.js`:
+
 ```js
 seomaticMeta: {
   debug: true,
@@ -113,13 +114,13 @@ seomaticMeta: {
 },
 ```
 
-| Name         | Type      | Default | Description                                                                                                                                                                                         |
-| ------------ | --------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| debug        | `boolean` | `false` | Display the GraphQL data and other useful feedback in your console when using `npm run generate`.                                                                                                   |
-| routeRemap   | `array`   | `[]`    | Custom remapping of route data so you can grab the SEOmatic data from another page.<br> Eg: Your Nuxt homepage has a route of `/` but you want data from a page in Craft with a slug of `homepage`. |
-| backendUrl   | `string`  | ``      | The url for your Craft installation.<br>This can also be defined in your `.env` under the key `BACKEND_URL`.                                                                                        |
-| graphqlPath  | `string`  | ``      | The path to your GraphQL API.<br>This can also be defined in your `.env` under the key `GRAPHQL_PATH`.                                                                                              |
-| graphqlToken | `string`  | ``      | The token for your secured GraphQL endpoint.<br>This can also be defined in your `.env` under the key `GRAPHQL_TOKEN`.                                                                              |
+| Name         | Type      | Default                                                                                                                     | Description                                                                                                                                                                                         |
+| ------------ | --------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| debug        | `boolean` | `false`                                                                                                                     | Display the GraphQL data and other useful feedback in your console when using `npm run generate`.                                                                                                   |
+| routeRemap   | `array`   | `[]`                                                                                                                        | Custom remapping of route data so you can grab the SEOmatic data from another page.<br> Eg: Your Nuxt homepage has a route of `/` but you want data from a page in Craft with a slug of `homepage`. |
+| backendUrl   | `string`  | `` | The url for your Craft installation.<br>This can also be defined in your `.env` under the key `BACKEND_URL`.           |
+| graphqlPath  | `string`  | `` | The path to your GraphQL API.<br>This can also be defined in your `.env` under the key `GRAPHQL_PATH`.                 |
+| graphqlToken | `string`  | `` | The token for your secured GraphQL endpoint.<br>This can also be defined in your `.env` under the key `GRAPHQL_TOKEN`. |
 
 Note: .env variables require the [dotenv module](https://github.com/nuxt-community/dotenv-module#setup).
 
