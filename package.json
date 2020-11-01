@@ -1,6 +1,6 @@
 {
     "name": "nuxt-seomatic-meta",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "A Nuxt.js module connecting Nuxt.js to the Craft CMS SEOmatic plugin",
     "keywords": [
         "vue",
